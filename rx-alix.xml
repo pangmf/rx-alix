@@ -14,6 +14,12 @@
   <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.pushsdk.push.NotificationService" sender="any" />
   <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.android.launcher.service.LauncherService" sender="any" />
 	
+  # xianyu
+  <prescription type="service" package="com.taobao.idlefish" class="com.taobao.process.interaction.service.RemoteCallService" sender="any" />
+	
+  # taobao
+  <prescription type="service" package="com.taobao.taobao" class="com.alibaba.analytics.AnalyticsService" sender="any" />
+	
   # zhihu
   <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.app.job.AdLaunchUpdateService" sender="any"/>
   <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any"/>
