@@ -3,29 +3,16 @@
 	<prescription type="broadcast" package="com.autonavi.minimap" class="com.autonavi.minimap.app.update.InstallListener" sender="any" />
 	<prescription type="broadcast" package="com.autonavi.minimap" class="com.amap.api.service.BootEventReceiver" sender="any" />
 	
-	<prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.TaobaoIntentService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.agoo.AgooCommondReceiver" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.accs.EventReceiver" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.accs.ServiceReceiver" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.alc.service.ALCManagerService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="org.android.agoo.accs.AgooService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.ajx3.Ajx3DebugService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.yunos.carkitservice.CarKitService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.LeakUploadService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.autonavi.lotuspool.LotuspoolService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.accs.data.MsgDistributeService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.alipay.android.app.MspService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="anetwork.channel.aidl.NetworkService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.index.service.NotifyServiceImpl" sender="any" />
+	<prescription type="service" package="com.autonavi.minimap" class="com.alibaba.analytics.AnalyticsService" sender="any" />
+	<prescription type="service" package="com.autonavi.minimap" class="com.squareup.leakcanaary.DisplayLeakService" sender="any" />
+	<prescription type="service" package="com.autonavi.minimap" class="com.alipay.android.phone.mobilesdk.permission.utils.FakeService" sender="any" />
+	<prescription type="service" package="com.autonavi.minimap" class="com.amap.bundle.lotuspool.internal.LotusPoolService" sender="any" />
 	<prescription type="service" package="com.autonavi.minimap" class="com.q.m.QS" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.shenma.speechrecognition.ShenmaRecognitionService" sender="any" />
 	<prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.TaobaoIntentService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.agoo.TaobaoMessageIntentReceiverService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="mtopsdk.xstate.XStateService" sender="any" />
-	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.accs.ChannelService" sender="any" />
 	
 	<prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.pushsdk.push.NotificationService" sender="any" />
+        <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.android.launcher.service.LauncherService" sender="any" />
+
 </prescriptions>
 
 
