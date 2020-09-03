@@ -1,0 +1,40 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+  # amap
+  <prescription type="broadcast" package="com.autonavi.minimap" class="com.autonavi.minimap.app.WakeupReceiver" sender="any" />
+  <prescription type="broadcast" package="com.autonavi.minimap" class="com.autonavi.minimap.app.update.InstallListener" sender="any" />
+  <prescription type="broadcast" package="com.autonavi.minimap" class="com.amap.api.service.BootEventReceiver" sender="any" />
+  <prescription type="service" package="com.autonavi.minimap" class="com.alibaba.analytics.AnalyticsService" sender="any" />
+  <prescription type="service" package="com.autonavi.minimap" class="com.squareup.leakcanaary.DisplayLeakService" sender="any" />
+  <prescription type="service" package="com.autonavi.minimap" class="com.alipay.android.phone.mobilesdk.permission.utils.FakeService" sender="any" />
+  <prescription type="service" package="com.autonavi.minimap" class="com.amap.bundle.lotuspool.internal.LotusPoolService" sender="any" />
+  <prescription type="service" package="com.autonavi.minimap" class="com.q.m.QS" sender="any" />
+  <prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.TaobaoIntentService" sender="any" />
+  
+  # alipay
+  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.pushsdk.push.NotificationService" sender="any" />
+  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.android.launcher.service.LauncherService" sender="any" />
+	
+  # zhihu
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.app.job.AdLaunchUpdateService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.push.getui.GetuiIntentService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.push.getui.GetuiPushService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.push.jobservice.PollingPushService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.push.PushActionService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.avos.avoscloud.PushService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.igexin.sdk.PushService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.data.analytics.ZAPeriodicExecuteJobService" sender="any"/>
+  <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.data.analytics.ZAPeriodicExecuteService" sender="any"/>
+  <prescription package="com.zhihu.android" type="broadcast" class="com.avos.avoscloud.AVBroadcastReceiver" sender="any"/>
+  <prescription package="com.zhihu.android" type="broadcast" class="com.zhihu.android.push.receiver.AwakeReceiver" sender="any"/>
+  <prescription package="com.zhihu.android" type="broadcast" class="com.zhihu.android.base.receiver.CommunicationReceiver" sender="any"/>
+  <prescription package="com.zhihu.android" type="broadcast" class="com.igexin.sdk.PushReceiver" sender="any"/>
+  <prescription package="com.zhihu.android" type="broadcast" class="com.zhihu.android.push.leancloud.PushReceiver" sender="any"/>
+
+  # xhs
+  <prescription package="com.xingin.xhs" type="service" class="org.daemon.AliveService" sender="any"/>
+
+</prescriptions>
+
+
+
