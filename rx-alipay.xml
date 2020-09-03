@@ -25,7 +25,7 @@
 	<prescription type="service" package="com.autonavi.minimap" class="mtopsdk.xstate.XStateService" sender="any" />
 	<prescription type="service" package="com.autonavi.minimap" class="com.taobao.accs.ChannelService" sender="any" />
 	
-	<prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.pushsdk.push.NotificationService="any" />
+	<prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.pushsdk.push.NotificationService" sender="any" />
 </prescriptions>
 
 
