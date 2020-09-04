@@ -11,7 +11,6 @@
   <prescription type="service" package="com.autonavi.minimap" class="com.autonavi.minimap.TaobaoIntentService" sender="any" />
   
   # alipay
-  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.pushsdk.push.NotificationService" sender="any" />
   <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.android.launcher.service.LauncherService" sender="any" />
 	
   # xianyu
