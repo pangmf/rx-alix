@@ -50,6 +50,9 @@
   # xhs
   <prescription package="com.xingin.xhs" type="service" class="org.daemon.AliveService" sender="any"/>
 
+  # sgame
+  <prescription package="com.tencent.tmgp.sgame" type="service" class="com.tencent.bigdata.mqttchannel.services.MqttService" sender="any"/>
+
 </prescriptions>
 
 
