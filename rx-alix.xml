@@ -55,6 +55,14 @@
   <prescription package="com.tencent.tmgp.sgame" type="service" class="com.tencent.android.tpush.service.XGVipPushService" sender="any"/>
   <prescription package="com.tencent.tmgp.sgame" type="broadcast" class="com.tencent.android.tpush.XGPushReceiver" sender="any"/>
 
+  # tencent !video
+  <prescription package="com.tencent.videolite.android" type="service" class="com.tencent.qqlive.module.push.RemoteService" sender="any"/>
+  <prescription package="com.tencent.videolite.android" type="service" class="com.tencent.qqlive.module.push.PushService" sender="any"/>
+  <prescription package="com.tencent.videolite.android" type="service" class="com.tencent.qqlive.module.push.PushHelpService" sender="any"/> 
+  <prescription package="com.tencent.videolite.android" type="broadcast" class="com.tencent.videolite.android.push.PushAlarmReceiver" sender="any"/>
+  <prescription package="com.tencent.videolite.android" type="broadcast" class="com.tencent.qqlive.module.push.PushKeepAliveReceiver" sender="any"/>
+  <prescription package="com.tencent.videolite.android" type="broadcast" class="com.tencent.videolite.android.push.SelfPushMessageReceiver" sender="any"/>
+
 </prescriptions>
 
 
