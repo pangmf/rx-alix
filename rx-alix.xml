@@ -12,6 +12,11 @@
   
   # alipay
   <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.pushsdk.push.NotificationService" sender="any" />
+  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService1" sender="any" />
+  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService2" sender="any" />
+  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService3" sender="any" />
+  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService4" sender="any" />
+  <prescription type="service" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.liteprocess.LiteProcessService$LiteProcessService5" sender="any" />
   <prescription type="broadcast" package="com.eg.android.AlipayGphone" class="com.alipay.android.app.AlarmReciver" sender="any" />
   <prescription type="broadcast" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.healthcommon.service.AlarmReceiver" sender="any" />
   <prescription type="broadcast" package="com.eg.android.AlipayGphone" class="com.alipay.mobile.notification.NotificationAlarmReceiver" sender="any" />
