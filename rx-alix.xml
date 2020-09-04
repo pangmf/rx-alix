@@ -52,6 +52,7 @@
 
   # sgame
   <prescription package="com.tencent.tmgp.sgame" type="service" class="com.tencent.bigdata.mqttchannel.services.MqttService" sender="any"/>
+  <prescription package="com.tencent.tmgp.sgame" type="service" class="com.tencent.android.tpush.service.XGVipPushService" sender="any"/>
 
 </prescriptions>
 
