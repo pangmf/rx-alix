@@ -29,7 +29,10 @@
 	
   # taobao
   <prescription type="service" package="com.taobao.taobao" class="com.alibaba.analytics.AnalyticsService" sender="any" />
-	
+  <prescription type="service" package="com.taobao.taobao" class="com.alibaba.ariver.ipc.RemoteCallService" sender="any" />
+  <prescription type="service" package="com.taobao.taobao" class="com.taobao.process.tbadapter.service.TBRemoteCallService" sender="any" />
+  <prescription type="service" package="com.taobao.taobao" class="com.taobao.process.interaction.service.RemoteCallService" sender="any" />
+ 
   # zhihu
   <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.app.job.AdLaunchUpdateService" sender="any"/>
   <prescription package="com.zhihu.android" type="service" class="com.zhihu.android.app.jobservice.AdTracksPushService" sender="any"/>
