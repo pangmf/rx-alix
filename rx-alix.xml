@@ -28,6 +28,8 @@
   <prescription type="broadcast" package="com.taobao.idlefish" class="com.taobao.accs.Eventaraeceiver" sender="any" />
 	
   # taobao
+  <prescription type="service" package="com.taobao.taobao" class="androidx.eork.impl.background.systemalarm.SystemAlarmService" sender="any" />
+  <prescription type="service" package="com.taobao.taobao" class="androidx.eork.impl.background.systemjob.SystemJobService" sender="any" />
   <prescription type="service" package="com.taobao.taobao" class="com.alibaba.analytics.AnalyticsService" sender="any" />
   <prescription type="service" package="com.taobao.taobao" class="com.alibaba.ariver.ipc.RemoteCallService" sender="any" />
   <prescription type="service" package="com.taobao.taobao" class="com.taobao.process.tbadapter.service.TBRemoteCallService" sender="any" />
